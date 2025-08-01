@@ -31,3 +31,30 @@ console.log("2" === 2) // It will strictly check for value as well as datatype
 
 
 // SPECIAL NOTE -> Try to avoid converisons like 2. & 3.
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+/* 
+
+There are TWO MEMORY types in JS
+
+        1) Stack Memory
+        2) Heap Memory
+
+1) Stack Memory (Call Stack) — for Primitive data 
+        
+        - Used for storing simple, fixed-size data like:
+
+        - Numbers, Strings, Booleans, undefined, null, symbol, bigint
+
+        - Stored in a last-in, first-out (LIFO) manner.
+
+        - Fast access and automatically cleaned up after function execution.
+
+        EXAMPLE -
+                let a = 10;         // Stored in stack
+                let name = "John";  // Stored in stack
+
+*/
