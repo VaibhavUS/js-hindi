@@ -45,10 +45,4 @@ Eg. Rolling a dice and getting output from 1 to 6
 const min = 1
 const max = 6
 
-console.log("Rolling Dice Result: ", Math.floor(Math.random() * (max - min + 1)) + min);
-
-
-
-
-
-
+console.log("Rolling Dice Result: ", Math.floor(Math.random() * (max - min + 1)) + min) // Check this logic for Dice
