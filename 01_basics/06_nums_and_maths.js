@@ -18,4 +18,4 @@ console.log(otherNumber.toPrecision(3)) // It will take the value given in preci
 
 
 
-
+/* ******************** MATHS ******************** */
